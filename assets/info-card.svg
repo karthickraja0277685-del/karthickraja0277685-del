@@ -1,0 +1,35 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#080d16"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="320" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="898" height="318" rx="17" fill="none" stroke="#263548"/>
+
+  <circle cx="28" cy="28" r="6" fill="#ff5f57"/>
+  <circle cx="48" cy="28" r="6" fill="#febc2e"/>
+  <circle cx="68" cy="28" r="6" fill="#28c840"/>
+  <text x="90" y="33" fill="#91a4ba" font-family="monospace" font-size="14">karthick@engineering:~</text>
+  <line x1="30" y1="53" x2="870" y2="53" stroke="#263548"/>
+
+  <text x="40" y="91" fill="#5eead4" font-family="monospace" font-size="16">$ whoami</text>
+  <text x="40" y="121" fill="#f1f5f9" font-family="monospace" font-size="25" font-weight="bold">Karthick Raja</text>
+
+  <text x="40" y="158" fill="#5eead4" font-family="monospace" font-size="16">$ mission --current</text>
+  <text x="40" y="185" fill="#cbd5e1" font-family="monospace" font-size="15">Understand systems by building them.</text>
+
+  <text x="40" y="222" fill="#5eead4" font-family="monospace" font-size="16">$ domains</text>
+  <text x="40" y="248" fill="#cbd5e1" font-family="monospace" font-size="14">[ AI &amp; Data Science ] [ Blockchain ]</text>
+  <text x="40" y="272" fill="#cbd5e1" font-family="monospace" font-size="14">[ Networking ] [ Distributed Systems ]</text>
+  <text x="40" y="301" fill="#64748b" font-family="monospace" font-size="12">STATUS: LEARNING · BUILDING · ITERATING</text>
+
+  <path d="M790 112 L810 132 L790 152" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M830 112 L850 132 L830 152" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+  <circle cx="820" cy="205" r="36" fill="none" stroke="#164e63" stroke-width="2"/>
+  <circle cx="820" cy="205" r="25" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-dasharray="5 6"/>
+  <circle cx="820" cy="205" r="5" fill="#5eead4"/>
+</svg>
+```
