@@ -1,0 +1,60 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111b"/>
+      <stop offset="100%" stop-color="#101827"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#173044" stroke-width=".6"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="18" y="18" width="864" height="324" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="360" fill="url(#bg)"/>
+    <rect width="900" height="360" fill="url(#grid)" opacity=".6"/>
+    <rect x="18" y="18" width="864" height="324" rx="12" fill="none" stroke="#254256"/>
+
+    <text x="42" y="53" fill="#5eead4" font-family="monospace" font-size="14">$ render --identity Karthick</text>
+    <text x="42" y="76" fill="#68879b" font-family="monospace" font-size="11">ASCII VISUALIZATION / RUNNING</text>
+
+    <g transform="translate(80 92)" fill="#5eead4" font-family="monospace" font-size="11" font-weight="bold">
+      <text x="0" y="20" opacity=".2">...........::::::...........</text>
+      <text x="0" y="34" opacity=".35">......::--======--::........</text>
+      <text x="0" y="48" opacity=".5">.....:-=++++++++++=-:.......</text>
+      <text x="0" y="62" opacity=".7">....:=++**++++++**++=:......</text>
+      <text x="0" y="76" opacity=".85">...:-+**##++++++##**+-:.....</text>
+      <text x="0" y="90">...:=+*###+====+###*+=:.....</text>
+      <text x="0" y="104">...:=+*###+====+###*+=:.....</text>
+      <text x="0" y="118" opacity=".9">....:-=++**++++**++=-:......</text>
+      <text x="0" y="132" opacity=".75">......::--======--::........</text>
+      <text x="0" y="146" opacity=".6">.........::::::::...........</text>
+      <text x="0" y="160" opacity=".5">......::..::::::..::.........</text>
+      <text x="0" y="174" opacity=".4">.....:--:........:--:........</text>
+      <text x="0" y="188" opacity=".3">....:====:......:====:.......</text>
+      <text x="0" y="202" opacity=".25">...:======:....:======:......</text>
+    </g>
+
+    <g fill="#cbd5e1" font-family="monospace">
+      <text x="490" y="130" font-size="13" fill="#5eead4">$ whoami</text>
+      <text x="490" y="165" font-size="25" font-weight="bold">KARTHICK RAJA</text>
+      <text x="490" y="194" font-size="13" fill="#94a3b8">AI &amp; DATA SCIENCE</text>
+      <text x="490" y="219" font-size="13" fill="#94a3b8">BLOCKCHAIN / SYSTEMS</text>
+      <text x="490" y="259" font-size="12" fill="#5eead4">[ OBSERVE ]</text>
+      <text x="490" y="280" font-size="12" fill="#5eead4">[ COMPREHEND ]</text>
+      <text x="490" y="301" font-size="12" fill="#5eead4">[ TRANSCEND ]</text>
+    </g>
+
+    <rect x="42" y="320" width="816" height="2" fill="#1c3546"/>
+    <rect x="42" y="320" width="160" height="2" fill="#5eead4">
+      <animate attributeName="x" values="42;698;42" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="42" y="18" width="816" height="324" rx="12" fill="none" stroke="#5eead4" stroke-width=".7" opacity=".3">
+      <animate attributeName="opacity" values=".15;.5;.15" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
+```
